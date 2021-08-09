@@ -1,0 +1,78 @@
+.subhead-row {
+    width: 790px;
+    float: right;
+    margin:0 0;
+    padding:0 0;
+}
+.link-area {
+    padding: 7px 10px;
+}
+.subhead-row clearfix{
+  list-style-type: none;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+a {
+     list-style-type: none;
+    color: #07519A;
+    text-decoration: none;
+    font-size:13.28px;
+    font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", Helvetica, sans-serif;
+}
+}
+ul, li {
+    list-style-type: none;
+}
+#searchlink #searchlink-inner .link-area .subhead-row {
+    width: 790px;
+    float: right;
+}
+#searchlink #searchlink-inner {
+    width: 950px;
+    margin: 0 auto;
+}
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1.4;
+    color: #333333;
+}
+.link-area p {
+    font-weight: bold;
+    float: left;
+    width: 140px;
+    color: #737373;
+}
+.clearfix {
+    display: flex;
+}
+.link-area.clearfix{
+  display:flex;
+}
+.subhead-row li {
+    float: left;
+}
+li::marker{
+  list-style-type:none;
+  list-style:none;
+}
+::marker {
+  list-style-type:none;
+  list-style:none;
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+.delete-marker {
+    list-style: none;
+}
